@@ -6,6 +6,9 @@ const people = [
 
 people.forEach((person, index) => {
   console.log(person.name);
+  if (person.name === 'Wes') {
+    console.warn('Dumb name')
+  }
 });
 
 // Console Methods
